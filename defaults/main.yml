@@ -1,0 +1,3 @@
+# List of php modules to be installed
+# Example: 'mod_ssl', 'mod_security'
+php_modules: []

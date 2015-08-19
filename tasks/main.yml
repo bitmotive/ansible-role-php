@@ -1,0 +1,11 @@
+---
+# Install PHP and a configurable list of PHP modules
+
+- name: Install PHP
+  yum: name=php state=latest
+  tags:
+    - php
+
+- name: Install PHP Modules
+  yum: name={{ item }} state=latest 
+  with_items: php_modules
