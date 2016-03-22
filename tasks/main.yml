@@ -2,7 +2,7 @@
 # Install PHP and a configurable list of PHP modules
 
 - name: Install PHP
-  yum: name=php state=latest
+  yum: name=php55w state=latest
   tags:
     - php
 
